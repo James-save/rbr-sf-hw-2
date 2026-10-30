@@ -2,3 +2,4 @@
 Homework 2 submission for Red Bird Racing Software Training 2026.
 
 This is a commit from the GitHub website!
+This is a commit from VSCode!
