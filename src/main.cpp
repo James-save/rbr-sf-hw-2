@@ -38,7 +38,7 @@ void loop()
     }
     // blink the LED
     digitalWrite(PIN_PD5, LOW);
-    delay(100);
+    delay(500);
     digitalWrite(PIN_PD5, HIGH);
-    delay(100);
+    delay(500);
 }
