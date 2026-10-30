@@ -2,7 +2,7 @@
  * @file main.cpp
  * @author Planeson (carson.cpk@proton.me)
  * @brief Test and verify the AMS Slave board.
- * @version 1.1.1
+ * @version 1.2.0
  * @date 2026-10-05
  *
  * @copyright Copyright (c) 2026 Red Bird Racing
@@ -15,7 +15,7 @@
 MCP2515 can(PIN_PB2);
 
 can_frame frame = {
-    .can_id = 0x123,
+    .can_id = 0x456,
     .can_dlc = 8,
     .data = {0x01, 0x23, 0x45, 0x67, 0x89, 0xAB, 0xCD, 0xEF}};
 
